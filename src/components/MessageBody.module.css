@@ -1,7 +1,6 @@
-.body {
-
-}
-
+/**
+ * message-body
+ */
 .itemMe {
   display: flex;
   justify-content: flex-end;

@@ -3,8 +3,7 @@ import styles from './Button.module.css';
 
 export enum ButtonTypes {
   Small = 'button--small',
-  Normal = 'button--normal',
-  Large = 'button--Large'
+  Normal = 'button--normal'
 }
 
 interface IButtonProps {

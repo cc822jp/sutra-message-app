@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Message.module.css';
 import MessageList from './MessageList';
 import MessageBody from './MessageBody';
+import MessagePanel from './MessagePanel';
 import Button, { ButtonTypes as Types } from './Button';
 
 const Message: React.FC = () => {
@@ -36,6 +37,9 @@ const Message: React.FC = () => {
           </div>
           <div className={styles.contentBody}>
             <MessageBody />
+          </div>
+          <div className={styles.contentTail}>
+            <MessagePanel />
           </div>
         </div>
       </div>

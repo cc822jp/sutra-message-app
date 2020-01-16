@@ -1,8 +1,9 @@
+/**
+ * button
+ */
 .button {
   display: inline-block;
   vertical-align: middle;
-  padding: 14px 24px;
-  min-width: 180px;
   text-align: center;
   background-color: #EFF8F7;
   color: #74CBD6;
@@ -14,6 +15,12 @@
 .button:hover {
   color: #EFF8F7;
   background-color: #74CBD6;
+}
+
+.button--normal {
+  padding: 14px 24px;
+  font-size: 1rem;
+  min-width: 180px;
 }
 
 .button--small {
