@@ -1,0 +1,56 @@
+.menu {
+  width: 100%;
+  background-color: #3A3E3F;
+}
+
+.menuHead {
+  position: relative;
+  padding: 24px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.menuHead:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menuHead:before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #FF4D6A;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 8px;
+}
+
+.menuIcon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 16px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.menuBody {
+
+}
+
+.item {
+  position: relative;
+  padding: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

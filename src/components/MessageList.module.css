@@ -1,0 +1,44 @@
+.item {
+  position: relative;
+  padding: 32px;
+  cursor: pointer;
+}
+
+.item:hover,
+.item.active {
+  background-color: #F5F5F5;
+}
+
+.itemHead {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.itemTitle {
+  font-weight: bold;
+}
+
+.itemDate {
+  font-size: 0.8rem;
+  color: #AAB3BB;
+  margin-left: auto;
+}
+
+.itemBody {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.notification {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #FF4D6A;
+  border-radius: 50%;
+  top: 22px;
+  bottom: 0;
+  margin: auto;
+  right: 20px;
+}

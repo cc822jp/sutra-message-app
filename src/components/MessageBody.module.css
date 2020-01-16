@@ -1,0 +1,66 @@
+.body {
+
+}
+
+.itemMe {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 0;
+}
+
+.itemMeInner {
+  display: flex;
+  max-width: 60%;
+}
+
+.itemMeContent {
+  padding-right: 8px;
+}
+
+.balloonMe {
+  padding: 16px;
+  background-color: #74CBD6;
+  color: #fff;
+  border-radius: 8px 8px 0 8px;
+}
+
+.date {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  text-align: right;
+  color: #AAB3BB;
+}
+
+.thumb {
+  width: 64px;
+  height: 64px;
+  flex-basis: 64px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+}
+
+.itemYou {
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px 0;
+}
+
+.itemYouInner {
+  display: flex;
+  max-width: 60%;
+}
+
+.itemYouContent {
+}
+
+.balloonYou {
+  padding: 16px;
+  background-color: #F5F5F5;
+  border-radius: 8px 8px 8px 0;
+}

@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 14px 24px;
+  min-width: 180px;
+  text-align: center;
+  background-color: #EFF8F7;
+  color: #74CBD6;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+}
+
+.button:hover {
+  color: #EFF8F7;
+  background-color: #74CBD6;
+}
+
+.button--small {
+  padding: 8px 16px;
+  font-size: 0.8rem;
+  min-width: initial;
+}

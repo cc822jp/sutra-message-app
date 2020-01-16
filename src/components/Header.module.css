@@ -1,0 +1,33 @@
+.header {
+  background-color: #76CBD6;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.notification {
+  position: relative;
+  margin-left: auto;
+  color: #fff;
+  padding: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.notification::after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #FF4D6A;
+  border-radius: 50%;
+  top: -16px;
+  bottom: 2px;
+  margin: auto;
+  left: 13px;
+  right: 0;
+}
+
+.notification:hover {
+  opacity: 0.8;
+}

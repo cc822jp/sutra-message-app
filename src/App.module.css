@@ -1,0 +1,27 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex-basis: 70px;
+}
+
+.body {
+  display: flex;
+  flex-grow: 1;
+}
+
+.menu {
+  display: flex;
+  flex-basis: 260px;
+  min-width: 150px;
+}
+
+.content {
+  flex-grow: 1;
+  width: 0;
+  flex-basis: 1000px;
+}
