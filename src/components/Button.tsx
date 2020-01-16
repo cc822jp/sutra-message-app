@@ -4,7 +4,7 @@ import styles from './Button.module.css';
 export enum ButtonTypes {
   Small = 'button--small',
   Normal = 'button--normal',
-  Large = 'button--Large',
+  Large = 'button--Large'
 }
 
 interface IButtonProps {
@@ -12,12 +12,8 @@ interface IButtonProps {
   type: ButtonTypes;
 }
 
-const Button: React.FC<IButtonProps> = ({label, type}) => {
-    return (
-        <div className={`${styles.button} ${styles[type]}`}>
-          {label}
-        </div>
-    );
-}
+const Button: React.FC<IButtonProps> = ({ label, type }) => {
+  return <div className={`${styles.button} ${styles[type]}`}>{label}</div>;
+};
 
 export default Button;

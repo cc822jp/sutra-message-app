@@ -7,18 +7,18 @@ const App: React.FC = () => {
   return (
     <div className={styles.App}>
       <header className={styles.header}>
-        <Header/>
+        <Header />
       </header>
       <main className={styles.body}>
         <div className={styles.menu}>
-          <Menu/>
+          <Menu />
         </div>
         <div className={styles.content}>
-          <Message/>
+          <Message />
         </div>
       </main>
     </div>
   );
-}
+};
 
 export default App;

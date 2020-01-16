@@ -1,18 +1,18 @@
 import React from 'react';
 import styles from './Message.module.css';
-import MessageList from "./MessageList";
-import MessageBody from "./MessageBody";
-import Button, {ButtonTypes as Types} from "./Button";
+import MessageList from './MessageList';
+import MessageBody from './MessageBody';
+import Button, { ButtonTypes as Types } from './Button';
 
 const Message: React.FC = () => {
   return (
     <div className={styles.message}>
       <div className={styles.menu}>
         <div className={styles.menuBody}>
-          <MessageList/>
+          <MessageList />
         </div>
         <div className={styles.menuTail}>
-          <Button label="もっとみる" type={Types.Normal}/>
+          <Button label="もっとみる" type={Types.Normal} />
         </div>
       </div>
       <div className={styles.content}>
@@ -24,23 +24,23 @@ const Message: React.FC = () => {
             </div>
             <div className={styles.tags}>
               <div className={styles.tag}>
-                <Button label="本人の鑑定カルテ" type={Types.Small}/>
+                <Button label="本人の鑑定カルテ" type={Types.Small} />
               </div>
               <div className={styles.tag}>
-                <Button label="お相手の鑑定カルテ1" type={Types.Small}/>
+                <Button label="お相手の鑑定カルテ1" type={Types.Small} />
               </div>
               <div className={styles.tag}>
-                <Button label="お相手の鑑定カルテ2" type={Types.Small}/>
+                <Button label="お相手の鑑定カルテ2" type={Types.Small} />
               </div>
             </div>
           </div>
           <div className={styles.contentBody}>
-            <MessageBody/>
+            <MessageBody />
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Message;
