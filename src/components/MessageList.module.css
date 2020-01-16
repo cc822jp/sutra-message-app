@@ -12,22 +12,22 @@
   background-color: #F5F5F5;
 }
 
-.itemHead {
+.head {
   display: flex;
   margin-bottom: 8px;
 }
 
-.itemTitle {
+.title {
   font-weight: bold;
 }
 
-.itemDate {
+.date {
   font-size: 0.8rem;
   color: #AAB3BB;
   margin-left: auto;
 }
 
-.itemBody {
+.body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

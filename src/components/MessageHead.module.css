@@ -1,0 +1,27 @@
+/**
+ * message-head
+ */
+.messageHead {
+  display: flex;
+  width: 100%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.point {
+  color: #767C7E;
+}
+
+.tags {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.tag + .tag {
+  margin-left: 16px;
+}

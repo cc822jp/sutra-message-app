@@ -6,7 +6,7 @@ import { IoMdCheckbox } from 'react-icons/io';
 const MessagePanel: React.FC = () => {
   return (
     <div className={styles.panel}>
-      <div className={styles.note}>
+      <div className={styles.head}>
         5文字以上200文字以下で入力してください <span>0文字</span>
       </div>
       <textarea
@@ -14,12 +14,12 @@ const MessagePanel: React.FC = () => {
         placeholder="メッセージを入力してください"
       ></textarea>
       <div className={styles.menu}>
-        <div className={styles.photoIcon}>
-          <MdInsertPhoto></MdInsertPhoto>
+        <div className={styles.photo}>
+          <MdInsertPhoto />
         </div>
         <div className={styles.free}>
           <div className={styles.freeIcon}>
-            <IoMdCheckbox></IoMdCheckbox>
+            <IoMdCheckbox />
           </div>
           <span>無料メッセージ</span>
         </div>

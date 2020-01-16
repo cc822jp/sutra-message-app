@@ -1,7 +1,7 @@
 /**
  * message-panel
  */
-.note {
+.head {
   color: #AAB3BB;
   font-size: 0.8rem;
   text-align: right;
@@ -24,14 +24,14 @@
   align-items: center;
 }
 
-.photoIcon {
+.photo {
   color: #74CBD6;
   font-size: 1.5rem;
   margin-right: auto;
   cursor: pointer;
 }
 
-.photoIcon:hover {
+.photo:hover {
   opacity: 0.8;
 }
 

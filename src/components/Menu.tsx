@@ -8,7 +8,7 @@ const Menu: React.FC = props => {
       <div className={styles.menuHead}>
         オンライン
         <div className={styles.menuIcon}>
-          <IoIosArrowDown></IoIosArrowDown>
+          <IoIosArrowDown />
         </div>
       </div>
       <div className={styles.menuBody}>

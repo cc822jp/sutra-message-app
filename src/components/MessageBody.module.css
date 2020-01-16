@@ -1,26 +1,39 @@
 /**
  * message-body
  */
-.itemMe {
+.itemMe,
+.itemYou {
   display: flex;
-  justify-content: flex-end;
   padding: 8px 0;
 }
 
-.itemMeInner {
+.itemMe {
+  justify-content: flex-end;
+}
+
+.itemYou {
+  justify-content: flex-start;
+}
+
+.inner {
   display: flex;
   max-width: 60%;
 }
 
-.itemMeContent {
-  padding-right: 8px;
+.balloonMe,
+.balloonYou {
+  padding: 16px;
 }
 
 .balloonMe {
-  padding: 16px;
   background-color: #74CBD6;
   color: #fff;
   border-radius: 8px 8px 0 8px;
+}
+
+.balloonYou {
+  background-color: #F5F5F5;
+  border-radius: 8px 8px 8px 0;
 }
 
 .date {
@@ -37,6 +50,7 @@
   flex-shrink: 0;
   border-radius: 50%;
   overflow: hidden;
+  margin-left: 8px;
 }
 
 .thumb img {
@@ -44,22 +58,3 @@
   width: 100%;
 }
 
-.itemYou {
-  display: flex;
-  justify-content: flex-start;
-  padding: 8px 0;
-}
-
-.itemYouInner {
-  display: flex;
-  max-width: 60%;
-}
-
-.itemYouContent {
-}
-
-.balloonYou {
-  padding: 16px;
-  background-color: #F5F5F5;
-  border-radius: 8px 8px 8px 0;
-}

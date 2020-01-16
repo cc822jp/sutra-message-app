@@ -9,11 +9,11 @@ const MessageList: React.FC = props => {
           i === 0 ? `${styles.item} ${styles.active}` : styles.item;
         return (
           <div key={i} className={className}>
-            <div className={styles.itemHead}>
-              <h2 className={styles.itemTitle}>まりもちゃん</h2>
-              <div className={styles.itemDate}>1時間前</div>
+            <div className={styles.head}>
+              <h2 className={styles.title}>まりもちゃん</h2>
+              <div className={styles.date}>1時間前</div>
             </div>
-            <div className={styles.itemBody}>
+            <div className={styles.body}>
               こんなことで悩んで困ってますのでこんなことで悩んで困ってますのでこんなことで悩んで困ってますので
             </div>
 

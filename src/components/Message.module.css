@@ -6,6 +6,7 @@
   height: 100%;
 }
 
+/* menu */
 .menu {
   flex-basis: 340px;
   border-right: 1px solid #F5F5F5;
@@ -27,6 +28,7 @@
   text-align: center;
 }
 
+/* content */
 .content {
   flex-grow: 1;
   flex-basis: 800px;
@@ -56,24 +58,4 @@
 .contentTail {
   padding: 8px 24px 24px;
   border-top: 1px solid #F5F5F5;
-}
-
-.tags {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-}
-
-.tag + .tag {
-  margin-left: 16px;
-}
-
-.title {
-  font-weight: bold;
-  font-size: 1.1rem;
-  margin-bottom: 8px;
-}
-
-.summary {
-  color: #767C7E;
 }
